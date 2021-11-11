@@ -2,7 +2,12 @@
   <div class="card">
     <div class="card-body">
       <span class="h3">Listado de empleados</span>
-      <button class="btn btn-dark btn-lg float-right">Agregar</button>
+      <button
+        class="btn btn-dark btn-lg float-right"
+        routerLink="/create-empleados"
+      >
+        Agregar
+      </button>
       <table class="table table-striped mt-5">
         <thead>
           <tr>
@@ -11,7 +16,7 @@
             <th>CURP</th>
             <th>Salario</th>
             <!-- Botones Editar y eliminar -->
-            <th></th>
+            <th>Editar - Eliminar</th>
           </tr>
         </thead>
         <tbody>
@@ -20,12 +25,20 @@
             <td>Uribe</td>
             <td>UICA021028MJCIRL5</td>
             <td>$100,000</td>
+            <td>
+              <i class="fas fa-edit fa-lg mr-4"></i>
+              <i class="far fa-trash fa-lg"></i>
+            </td>
           </tr>
           <tr>
             <td>Ricardo</td>
             <td>González</td>
             <td>UICA021028MJCIRL5</td>
             <td>$100,000</td>
+            <td>
+              <i class="fas fa-edit fa-lg mr-4"></i>
+              <i class="far fa-trash fa-lg"></i>
+            </td>
           </tr>
           <tr>
             <td>Daniela</td>
